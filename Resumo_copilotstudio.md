@@ -24,3 +24,7 @@
 > No campo conhecimento, podemos adicionar uma base de conhecimento.
 >
 > após preencher todos os campos clicar em criar, e será criado o agente copilot baseado em modelo, Apos criado basta testar o agente.
+>
+>
+>
+> Documentação do Microsoft Copilot Studio: https://learn.microsoft.com/pt-br/microsoft-copilot-studio/
