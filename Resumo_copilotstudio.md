@@ -1,30 +1,59 @@
-# Resumo para criar agente copilot baseado em modelo
->
->
->
-> Primero passo é acessar o site copilotstudio.microsoft.com e criar uma conta, essa conta deve ser corporativa.
->
->
-> Após entrar na conta no copilot studio podemos acessar a Home page, onde podemos encontrar a tela Explorar agentes.
->
-> Selecione um modelo de agente.
->
-> Após selecionar um modelo de agente, devemos personaliza-lo.
->
-> No campo nome, devemos definir um nome para o agente, Dê ao seu agente um nome para que ele seja fácil de identificar.
->
-> Também podemos alterar o icone usado para representar o agente. O ícone deve ser no formato PNG e ter menos de 30 KB de tamanho.
->
-> No campo descrição, devemos descrever como o agente personalizado deve ajudar seu público-alvo e a meta final.
->
-> No campo Instruções, devemos direcionar o comportamento do agente, incluindo suas tarefas.
->
-> No campo Prompts iniciais, Sugira formas de iniciar conversas.
->
-> No campo conhecimento, podemos adicionar uma base de conhecimento.
->
-> após preencher todos os campos clicar em criar, e será criado o agente copilot baseado em modelo, Apos criado basta testar o agente.
->
->
->
-> Documentação do Microsoft Copilot Studio: https://learn.microsoft.com/pt-br/microsoft-copilot-studio/
+# Como Criar um Agente Copilot da Microsoft Baseado em Modelo
+
+Este guia mostra os passos para criar um agente Copilot usando a plataforma **Microsoft Copilot Studio**, aproveitando modelos de linguagem (LLMs) como os do Azure OpenAI.
+
+---
+
+##  1. Acesse o Copilot Studio
+- Acesse: [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/)
+- Faça login com sua conta da Microsoft 365
+- Requer uma licença compatível
+
+---
+
+##  2. Crie um novo agente (Copilot)
+- Clique em “Criar copilot”
+- Defina nome, idioma e ambiente
+- Escolha começar do zero ou usar um modelo pronto
+
+---
+
+##  3. Configure um modelo de linguagem
+- Use o GPT da Azure OpenAI ou conecte sua própria instância
+- Vá em **Tópicos** > crie um novo tópico
+- Adicione uma ação: **"Chamar modelo de linguagem"**
+- Use essa ação para gerar respostas com base nas entradas do usuário
+
+---
+
+##  4. Conecte fontes de dados (opcional)
+- Conecte a dados reais, como:
+  - Microsoft Dataverse
+  - SharePoint
+  - SQL Server
+  - APIs externas
+  - Conectores Power Platform
+
+---
+
+##  5. Teste e publique
+- Use o painel lateral para testar o Copilot
+- Ajuste fluxos, tópicos e respostas conforme necessário
+- Clique em **Publicar** quando estiver pronto
+
+---
+
+##  6. Distribua
+- Embutir em:
+  - Sites SharePoint
+  - Microsoft Teams
+  - Sites externos (HTML embed)
+  - Power Apps
+    
+## Documentação do Microsoft Copilot Studio
+
+## Acesse a [documentação do Microsoft Copilot Studio](https://learn.microsoft.com/pt-br/microsoft-copilot-studio/)
+---
+
+
+
