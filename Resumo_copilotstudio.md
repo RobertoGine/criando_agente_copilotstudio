@@ -50,7 +50,7 @@ Este guia mostra os passos para criar um agente Copilot usando a plataforma **Mi
   - Sites externos (HTML embed)
   - Power Apps
     
-## Documentação do Microsoft Copilot Studio
+- Fonte: Microsoft 
 
 ## Acesse a [documentação do Microsoft Copilot Studio](https://learn.microsoft.com/pt-br/microsoft-copilot-studio/)
 ---
